@@ -1,4 +1,4 @@
-# pass.in
+# Pass.in
 
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
 
@@ -31,7 +31,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ## Documentação da API (Swagger)
 
-Para documentação da API, acesse o link: http://localhost:3333/docs/json
+Para documentação da API, acesse o link: http://localhost:3333/docs
 
 ## Banco de dados
 
