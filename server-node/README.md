@@ -32,6 +32,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ## Documentação da API (Swagger)
 
 Para documentação da API, acesse o link: http://localhost:3333/docs
+
 Só irá aparecer quando o nodeJs estiver rodando
 
 ## Banco de dados
