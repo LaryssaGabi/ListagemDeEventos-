@@ -89,7 +89,7 @@ CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 set DATABASE_URL=file:./dev.db
 npx tsx watch src/server.ts
 `
-- Dessa manira o localhost irá funcionar
+- Dessa maneira o localhost irá funcionar
 
 ## Prar criar uma nova tabela no DB
 - Schema informo o maneira de como gostaria
