@@ -2,24 +2,24 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Casamento",
-  "details": "Meu Casamento",
-  "maximumAttendees": 300
+  "title": "Evento Dev",
+  "details": "Conferencia de desenvolvimento de software com palestras sobre IA",
+  "maximumAttendees": 260
 }
 
 ###
 
-POST http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4/attendees
+POST http://localhost:3333/events/877904e7-08d5-4881-a900-cad588805843/attendees
 Content-Type: application/json
 
 {
-  "name": "Phillip",
-  "email": "phillip.vitoria@rocketseat.com.br"
+  "name": "Diego",
+  "email": "diego@rdevsoftware.com.br"
 }
 
 ###
 
-GET http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4
+GET http://localhost:3333/events/877904e7-08d5-4881-a900-cad588805843
 
 ###
 
@@ -30,4 +30,4 @@ GET http://localhost:3333/attendees/5/check-in
 
 ###
 
-GET http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4/attendees?query=Phillip
+GET http://localhost:3333/events/877904e7-08d5-4881-a900-cad588805843/attendees?query=diego
