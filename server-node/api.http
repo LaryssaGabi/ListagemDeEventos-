@@ -1,0 +1,33 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "Casamento",
+  "details": "Meu Casamento",
+  "maximumAttendees": 300
+}
+
+###
+
+POST http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4/attendees
+Content-Type: application/json
+
+{
+  "name": "Phillip",
+  "email": "phillip.vitoria@rocketseat.com.br"
+}
+
+###
+
+GET http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4
+
+###
+
+GET http://localhost:3333/attendees/5/badge
+###
+
+GET http://localhost:3333/attendees/5/check-in
+
+###
+
+GET http://localhost:3333/events/2925e225-a40c-41a2-8ca6-75faed47bec4/attendees?query=Phillip
